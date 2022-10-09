@@ -5,101 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Nombre para la presente Tarea  -->
-    <title>Tarea #2</title>
+    <title>Principal</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
+      <a href="http://www.elwebstudio.com" class="link"
+        ><h4 class="webstudio-logo">WebStudio</h4></a
+      >
       <nav>
-        <a href="http://www.elwebstudio.com" class="link"><h4>WebStudio</h4></a>
-        <a href="" class="link"><h6>Estudio</h6></a>
-        <a href="" class="link"><h6>Portafolio</h6></a>
-        <a href="" class="link"><h6>Contactos</h6></a>
+        <ul>
+          <li>
+            <a href="" class="link"><h6 class="desk link">Estudio</h6></a>
+          </li>
+          <li>
+            <a href="" class="link"><h6 class="desk link">Portafolio</h6></a>
+          </li>
+          <li>
+            <a href="" class="link"><h6 class="desk link">Contactos</h6></a>
+          </li>
+        </ul>
       </nav>
-      <ul>
-        <li>info@devstudio.com</li>
-        <li>+52 55 5529 6000</li>
-      </ul>
+
+      <a class="link mail-tel" href="">info@devstudio.com</a>
+      <p class="mail-tel">+52 55 5529 6000</p>
     </header>
     <!-- Sección 1 para estructurar la primera parte del cuerpo de la pagina, donde se establece el titulo mas grande a ser usado -->
     <main>
-      <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-      <button type="submit">Solicitar un Servicio</button>
-      <article>
-        <h4>ATENCION A LOS DETALLES</h4>
-        <p>
-          Nos adentramos en todos los detalles y procesos de su negocio, para
-          así desarrollar una solución a su medida.
-        </p>
-      </article>
-      <article>
-        <h4>PUNTUALIDAD</h4>
-        <p>
-          Con nosotros, usted puede sentirse seguro y protegido. Un principio
-          importante de la empresa: respetar su tiempo y respetar los plazos
-          acordados.
-        </p>
-      </article>
-      <article>
-        <h4>PLANIFICACION</h4>
-        <p>
-          Usted podrá observar y participar en cada fase del desarrollo y
-          aplicación de soluciones.
-        </p>
-      </article>
-      <article>
-        <h4>TECNOLOGIA MODERNA</h4>
-        <p>
-          Usamos herramientas innovadoras para resolver las tareas asignadas. Es
-          hora de simplificar los procesos laborales.
-        </p>
-      </article>
-      <h2>A que nos dedicamos</h2>
-      <img src="images/Pc.jpg" alt="Imagen de PC" width="400" />
-      <img src="images/Portatil.jpg" alt="Imagen de Portatil" width="400" />
-      <img src="images/Tablet.jpg" alt="Imagen de tablet" width="400" />
-      <h2>Nuestro Equipo</h2>
-      <figure>
-        <img src="images/ACubo.jpg" alt="Diseñador de Productos" width="300" />
-        <figcaption>
-          <p>Andrés Cubo</p>
-          <p>Diseñador de Productos</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="images/CPalacios.jpg"
-          alt="Desarrolladora Frontend"
-          width="300"
-        />
-        <figcaption>
-          <p>Carla Palacios</p>
-          <p>Desarrolladora Frontend</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/MDorado.jpg" alt="Marketing" width="300" />
-        <figcaption>
-          <p>Mario Dorado</p>
-          <p>Marketing</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/PMijangos.jpg" alt="Diseñador IU" width="300" />
-        <figcaption>
-          <p>Pablo Mijangos</p>
-          <p>Diseñador IU</p>
-        </figcaption>
-      </figure>
+      <section class="title-section">
+        <h1 class="title-big">
+          SOLUCIONES EFICACES PARA <br />
+          SU NEGOCIO
+        </h1>
+        <button class="desk button-index" type="button">
+          Solicite nuestro servicio
+        </button>
+      </section>
+      <section class="text-down">
+        <div>
+          <h4 class="title-normal">ATENCION A LOS DETALLES</h4>
+          <p>
+            Nos adentramos en todos los detalles y procesos de su negocio, para
+            así desarrollar una solución a su medida.
+          </p>
+
+          <h4 class="title-normal">PUNTUALIDAD</h4>
+          <p>
+            Con nosotros, usted puede sentirse seguro y protegido. Un principio
+            importante de la empresa: respetar su tiempo y respetar los plazos
+            acordados.
+          </p>
+
+          <h4 class="title-normal">PLANIFICACION</h4>
+          <p>
+            Usted podrá observar y participar en cada fase del desarrollo y
+            aplicación de soluciones.
+          </p>
+
+          <h4 class="title-normal">TECNOLOGIA MODERNA</h4>
+          <p>
+            Usamos herramientas innovadoras para resolver las tareas asignadas.
+            Es hora de simplificar los procesos laborales.
+          </p>
+        </div>
+      </section>
+      <h2 class="title-medium">A qué nos dedicamos</h2>
+      <ul>
+        <li>
+          <img src="images/pc.jpg" alt="Imagen de PC" width="400" />
+        </li>
+        <li>
+          <img src="images/portatil.jpg" alt="Imagen de Portatil" width="400" />
+        </li>
+        <li>
+          <img src="images/tablet.jpg" alt="Imagen de tablet" width="400" />
+        </li>
+      </ul>
+      <section class="team">
+        <h2 class="title-medium">Nuestro Equipo</h2>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="images/a-cubo.jpg"
+                alt="Diseñador de Productos"
+                width="300"
+              />
+              <figcaption>
+                <p class="nom-team">Andrés Cubo</p>
+                <p class="work-team">Diseñador de Productos</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/c-palacios.jpg"
+                alt="Desarrolladora Frontend"
+                width="300"
+              />
+              <figcaption>
+                <p class="nom-team">Carla Palacios</p>
+                <p class="work-team">Desarrolladora Frontend</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/m-dorado.jpg" alt="Marketing" width="300" />
+              <figcaption>
+                <p class="nom-team">Mario Dorado</p>
+                <p class="work-team">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/p-mijangos.jpg" alt="Diseñador IU" width="300" />
+              <figcaption>
+                <p class="nom-team">Pablo Mijangos</p>
+                <p class="work-team">Diseñador IU</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- Parte final de la pagina donde se describe el pie de pagina  -->
-    <footer>
+    <footer class="info-section">
       <ul>
-        <li>WebStudio</li>
+        <li class="webstudio-logo">WebStudio</li>
         <li>
-          <address>Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
+          Calz. Ticomán 500, Ciudad de <br />
+          México, CDMX, México
         </li>
-        <li>info@example.com</li>
-        <li>+52 55 5529 6000</li>
+        <li class="mail-tel">info@example.com</li>
+        <li class="mail-tel">+52 55 5529 6000</li>
       </ul>
     </footer>
   </body>

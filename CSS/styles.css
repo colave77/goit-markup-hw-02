@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto';
+    color: black ;
+}
+.info-section{
+
+    background-color: #212121;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.webstudio-logo {
+    font-family: 'Raleway';
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+
+}
+
+.desk {
+    font-family: 'Roboto';
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.mail-tel {
+    color: gray;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+li {list-style-type: none;}
+
+.title-section {
+font-family: 'roboto';
+background-color: #212121;
+color: white;
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+}
+
+.text-down {
+color: gray;
+text-align: justify;
+font-weight: 400;
+font-size: 14px;
+}
+.title-normal {
+color: black;
+text-align: justify;
+font-weight: 700;
+}
+
+.title-medium {
+color: black;
+text-align: center;
+font-weight: 700;
+font-size: 36px;
+}
+
+.button-index
+{
+
+background-color: #2196F3 ;
+color: white;
+border-radius: 4px;
+width: 197px;
+height: 30px;
+font-size: 16px;
+
+}
+
+.team{
+
+    background-color: #F5F4FA;
+}
+
+.nom-team{
+font-size: 16px;
+font-weight: 500;
+/* text-align: center; */
+}
+.work-team{
+    color: gray;
+    font-weight: 400;
+    /* text-align: center; */
+}
