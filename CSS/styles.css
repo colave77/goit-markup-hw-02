@@ -34,6 +34,7 @@ body {
 
 .link {
     text-decoration: none;
+    
 }
 
 .link:hover {
@@ -71,6 +72,7 @@ font-weight: 700;
 font-size: 36px;
 }
 
+/* Buttons */
 .button-index
 {
 
@@ -80,8 +82,33 @@ border-radius: 4px;
 width: 197px;
 height: 30px;
 font-size: 16px;
+background-color: #2196F3;
+}
+.button-filter
+{
+
+background-color: #F5F4FA;
+color: black;
+border-radius: 4px;
+width: 197px;
+height: 30px;
+font-size: 16px;
+border-color: #F5F4FA;
 
 }
+.button-filter:hover
+{
+
+background-color: #2196F3 ;
+color: white;
+border-radius: 4px;
+width: 197px;
+height: 30px;
+font-size: 16px;
+background-color: #2196F3;
+}
+
+/* team */
 
 .team{
 
@@ -91,10 +118,26 @@ font-size: 16px;
 .nom-team{
 font-size: 16px;
 font-weight: 500;
+
 /* text-align: center; */
 }
 .work-team{
     color: gray;
     font-weight: 400;
     /* text-align: center; */
+}
+
+/* images */
+.images-filter{
+    width: 370px;
+    height: 294px;
+}
+.images-team{
+    width: 270px;
+    height: 260px;
+    align-items: center;
+}
+.images-principal{
+    width: 373.16px;
+    height: 323.7px;
 }
