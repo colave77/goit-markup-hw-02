@@ -1,17 +1,25 @@
+:root {
+    --first-color: black;
+    --second-color:white;
+    --third-color:#2196F3 ;
+    --fourth-color: gray ;
+    --five-color: #F5F4FA ;
+}
+
 body {
     font-family: 'Roboto';
-    color: black ;
+    color: var(--first-color) ;
 }
 .info-section{
 
-    background-color: #212121;
-    color: white;
+    background-color: var(--first-color);
+    color:var(--second-color);
     font-size: 14px;
     font-weight: 400;
 }
 .webstudio-logo {
     font-family: 'Raleway';
-    color: #2196F3;
+    color: var(--third-color);
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
@@ -19,8 +27,7 @@ body {
 }
 
 .desk {
-    font-family: 'Roboto';
-    color: #212121;
+    color: var(--first-color);
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
@@ -28,7 +35,7 @@ body {
 }
 
 .mail-tel {
-    color: gray;
+    color: var(--fourth-color);
     list-style-type: none;
 }
 
@@ -38,35 +45,35 @@ body {
 }
 
 .link:hover {
-    color: #2196F3;
+    color: var(--third-color);
     text-decoration: none;
 }
 
 li {list-style-type: none;}
 
 .title-section {
-font-family: 'roboto';
-background-color: #212121;
-color: white;
+
+background-color: var(--first-color);
+color: var(--second-color);
 text-align: center;
 font-size: 44px;
 font-weight: 900;
 }
 
 .text-down {
-color: gray;
+color: var(--fourth-color);
 text-align: justify;
 font-weight: 400;
 font-size: 14px;
 }
 .title-normal {
-color: black;
+color: var(--first-color);
 text-align: justify;
 font-weight: 700;
 }
 
 .title-medium {
-color: black;
+color: var(--first-color);
 text-align: center;
 font-weight: 700;
 font-size: 36px;
@@ -76,43 +83,45 @@ font-size: 36px;
 .button-index
 {
 
-background-color: #2196F3 ;
-color: white;
+background-color: var(--third-color) ;
+color: var(--second-color);
 border-radius: 4px;
 width: 197px;
 height: 30px;
 font-size: 16px;
-background-color: #2196F3;
+background-color: var(--third-color);
+cursor: pointer;
 }
 .button-filter
 {
 
-background-color: #F5F4FA;
-color: black;
-border-radius: 4px;
+background-color: var(--five-color);
+color: --first-color;
+/* border-radius: 4px; */
 width: 197px;
 height: 30px;
 font-size: 16px;
-border-color: #F5F4FA;
+border-color: var(--five-color);
+cursor: pointer;
+box-shadow: none;
 
 }
 .button-filter:hover
 {
-
-background-color: #2196F3 ;
-color: white;
+background-color: var(--third-color) ;
+color: var(--second-color);
 border-radius: 4px;
 width: 197px;
 height: 30px;
 font-size: 16px;
-background-color: #2196F3;
+cursor: pointer;
 }
 
 /* team */
 
 .team{
 
-    background-color: #F5F4FA;
+    background-color: var(--fourth-color);
 }
 
 .nom-team{
@@ -122,7 +131,7 @@ font-weight: 500;
 /* text-align: center; */
 }
 .work-team{
-    color: gray;
+    color: var(--fourth-color);
     font-weight: 400;
     /* text-align: center; */
 }
