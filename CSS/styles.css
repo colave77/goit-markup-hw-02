@@ -1,3 +1,4 @@
+/* variables generales */
 :root {
     --first-color: black;
     --second-color:white;
@@ -5,7 +6,7 @@
     --fourth-color: gray ;
     --five-color: #F5F4FA ;
 }
-
+/* clases generales */
 body {
     font-family: 'Roboto';
     color: var(--first-color) ;
