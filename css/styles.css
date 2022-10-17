@@ -40,7 +40,7 @@ body {
     list-style-type: none;
 }
 
-.link {
+.not-line {
     text-decoration: none;
     
 }
@@ -65,23 +65,24 @@ font-weight: 900;
 line-height: 60px;
 }
 
-.text-down {
+.text-services {
 color: var(--fourth-color);
-text-align: justify;
+/* text-align: justify; */
 font-weight: 400;
 font-size: 14px;
 }
-.title-normal {
-color: var(--first-color);
-text-align: justify;
-font-weight: 700;
-}
-
-.title-medium {
+.title-services-team {
 color: var(--first-color);
 text-align: center;
 font-weight: 700;
 font-size: 36px;
+}
+
+.title-objetives {
+color: var(--first-color);
+text-align: left;
+font-weight: 700;
+font-size: 14px;
 }
 
 /* Buttons */
@@ -130,7 +131,7 @@ cursor: pointer;
     background-color: var(--five-color);
 }
 
-.nom-team{
+.name-team{
 font-size: 16px;
 font-weight: 500;
 
@@ -152,7 +153,7 @@ font-weight: 500;
     height: 260px;
     align-items: center;
 }
-.images-principal{
+.images-services{
     width: 373.16px;
     height: 323.7px;
 }
