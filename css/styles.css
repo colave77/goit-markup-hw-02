@@ -58,7 +58,7 @@ background-color: var(--first-color);
 color: var(--second-color);
 text-align: center;
 }
-.title-big{
+.title-big {
 font-size: 44px;
 font-weight: 900;
 line-height: 60px;
