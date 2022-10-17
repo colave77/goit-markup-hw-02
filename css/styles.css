@@ -48,9 +48,10 @@ body {
 .link:hover {
     color: var(--third-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
-li {list-style-type: none;}
+.unpointing {list-style-type: none;}
 
 .title-section {
 
@@ -126,7 +127,7 @@ cursor: pointer;
 
 .team{
 
-    background-color: var(--fourth-color);
+    background-color: var(--five-color);
 }
 
 .nom-team{
