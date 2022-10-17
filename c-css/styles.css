@@ -1,0 +1,153 @@
+/* variables generales */
+:root {
+    --first-color: black;
+    --second-color:white;
+    --third-color:#2196F3 ;
+    --fourth-color: gray ;
+    --five-color: #F5F4FA ;
+}
+/* clases generales */
+body {
+    font-family: 'Roboto';
+    color: var(--first-color) ;
+}
+.info-section{
+
+    background-color: var(--first-color);
+    color:var(--second-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+.webstudio-logo {
+    font-family: 'Raleway';
+    color: var(--third-color);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+
+}
+
+.desk {
+    color: var(--first-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.mail-tel {
+    color: var(--fourth-color);
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+li {list-style-type: none;}
+
+.title-section {
+
+background-color: var(--first-color);
+color: var(--second-color);
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+}
+
+.text-down {
+color: var(--fourth-color);
+text-align: justify;
+font-weight: 400;
+font-size: 14px;
+}
+.title-normal {
+color: var(--first-color);
+text-align: justify;
+font-weight: 700;
+}
+
+.title-medium {
+color: var(--first-color);
+text-align: center;
+font-weight: 700;
+font-size: 36px;
+}
+
+/* Buttons */
+.button-index
+{
+
+background-color: var(--third-color) ;
+color: var(--second-color);
+border-radius: 4px;
+width: 197px;
+height: 30px;
+font-size: 16px;
+background-color: var(--third-color);
+cursor: pointer;
+}
+.button-filter
+{
+
+background-color: var(--five-color);
+color: --first-color;
+/* border-radius: 4px; */
+width: 197px;
+height: 30px;
+font-size: 16px;
+border-color: var(--five-color);
+cursor: pointer;
+box-shadow: none;
+
+}
+.button-filter:hover
+{
+background-color: var(--third-color) ;
+color: var(--second-color);
+border-radius: 4px;
+width: 197px;
+height: 30px;
+font-size: 16px;
+cursor: pointer;
+}
+
+/* team */
+
+.team{
+
+    background-color: var(--fourth-color);
+}
+
+.nom-team{
+font-size: 16px;
+font-weight: 500;
+
+/* text-align: center; */
+}
+.work-team{
+    color: var(--fourth-color);
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+/* images */
+.images-filter{
+    width: 370px;
+    height: 294px;
+}
+.images-team{
+    width: 270px;
+    height: 260px;
+    align-items: center;
+}
+.images-principal{
+    width: 373.16px;
+    height: 323.7px;
+}
