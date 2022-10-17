@@ -57,8 +57,11 @@ li {list-style-type: none;}
 background-color: var(--first-color);
 color: var(--second-color);
 text-align: center;
+}
+.title-big{
 font-size: 44px;
 font-weight: 900;
+line-height: 60px;
 }
 
 .text-down {
@@ -89,6 +92,7 @@ color: var(--second-color);
 border-radius: 4px;
 width: 197px;
 height: 30px;
+font-family: "roboto";
 font-size: 16px;
 background-color: var(--third-color);
 cursor: pointer;
